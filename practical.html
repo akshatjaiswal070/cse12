@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>September 2025 Calendar</title>
+    <style>
+        /* Basic CSS for clarity and structure */
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        .calendar-table {
+            width: 80%;
+            margin: 20px auto;
+            border-collapse: collapse;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            background-color: #fff;
+        }
+        .calendar-table caption {
+            font-size: 1.8em;
+            font-weight: bold;
+            padding: 15px;
+            color: #333;
+            background-color: #e0f7fa; /* Light blue header */
+            border: 1px solid #ccc;
+        }
+        .calendar-table th, .calendar-table td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: center;
+            height: 80px; /* Standard cell height */
+            vertical-align: top;
+        }
+        .day-header {
+            background-color: #00bcd4; /* Cyan header for days */
+            color: white;
+            font-weight: bold;
+        }
+        .day-number {
+            font-size: 1.2em;
+            font-weight: bold;
+            display: block;
+            margin-bottom: 5px;
+            text-align: left;
+            color: #333;
+        }
+        /* Style for the nested table - used to show events/notes */
+        .nested-event-table {
+            width: 100%;
+            border: none;
+            font-size: 0.8em;
+            margin-top: 5px;
+            border-collapse: collapse;
+        }
+        .nested-event-table td {
+            border: none;
+            padding: 2px 0;
+            text-align: left;
+            height: auto;
+        }
+        .weekend {
+            background-color: #ffe0b2; /* Light orange for weekends */
+        }
+        .highlight {
+            background-color: #a5d6a7; /* Light green for a specific highlight */
+        }
+    </style>
+</head>
+<body>
+
+    <h1 style="color: #0097a7;">📅 September 2025 Calendar Webpage</h1>
+
+    <table class="calendar-table">
+        <caption>September 2025 - A Month of Beginnings</caption>
+
+        <thead>
+            <tr>
+                <th class="day-header" colspan="7">The Days of the Week</th>
+            </tr>
+            <tr>
+                <th class="day-header">Sun</th>
+                <th class="day-header">Mon</th>
+                <th class="day-header">Tue</th>
+                <th class="day-header">Wed</th>
+                <th class="day-header">Thu</th>
+                <th class="day-header">Fri</th>
+                <th class="day-header">Sat</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="weekend" style="color: #9e9e9e;">
+                    <span class="day-number">31</span>
+                    <small>Aug</small>
+                </td>
+                <td class="highlight">
+                    <span class="day-number">1</span>
+                    <table class="nested-event-table">
+                        <tr><td><small>&#x2705; Labor Day (US)</small></td></tr>
+                    </table>
+                </td>
+                <td><span class="day-number">2</span></td>
+                <td><span class="day-number">3</span></td>
+                <td><span class="day-number">4</span></td>
+                <td><span class="day-number">5</span></td>
+                <td class="weekend"><span class="day-number">6</span></td>
+            </tr>
+            <tr>
+                <td class="weekend"><span class="day-number">7</span></td>
+                <td><span class="day-number">8</span></td>
+                <td><span class="day-number">9</span></td>
+                <td><span class="day-number">10</span></td>
+                <td><span class="day-number">11</span></td>
+                <td><span class="day-number">12</span></td>
+                <td class="weekend">
+                    <span class="day-number">13</span>
+                    <table class="nested-event-table">
+                        <tr><td><small>&#x2611; Project Due</small></td></tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td class="weekend"><span class="day-number">14</span></td>
+                <td><span class="day-number">15</span></td>
+                <td><span class="day-number">16</span></td>
+                <td><span class="day-number">17</span></td>
+                <td><span class="day-number">18</span></td>
+                <td><span class="day-number">19</span></td>
+                <td class="weekend"><span class="day-number">20</span></td>
+            </tr>
+            <tr>
+                <td class="weekend highlight">
+                    <span class="day-number">21</span>
+                    <table class="nested-event-table">
+                        <tr><td><small>&#x1F343; Autumn Equinox</small></td></tr>
+                    </table>
+                </td>
+                <td><span class="day-number">22</span></td>
+                <td><span class="day-number">23</span></td>
+                <td><span class="day-number">24</span></td>
+                <td><span class="day-number">25</span></td>
+                <td><span class="day-number">26</span></td>
+                <td class="weekend"><span class="day-number">27</span></td>
+            </tr>
+            <tr>
+                <td class="weekend"><span class="day-number">28</span></td>
+                <td><span class="day-number">29</span></td>
+                <td><span class="day-number">30</span></td>
+                <td **rowspan="2"** **colspan="4"** style="background-color: #fff3e0; border: 2px dashed #ff9800;">
+                    <p style="font-weight: bold; color: #ff9800;">Note:</p>
+                    <p>Upcoming Month: October</p>
+                    <p>October 1st is on a Wednesday.</p>
+                </td>
+            </tr>
+            <tr>
+                </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
