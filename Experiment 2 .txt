@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>News Homepage</title>
+</head>
+<body>
+<!--Header-->
+<h1>Experiment 2</h1>
+<h5>CSE-12:Akshat Jaiswal</h5>
+<!-- Description -->
+<p> Create a web page for a news </p>
+<!-- Navigation bar -->
+<nav>
+<a href="#Home">home</a>
+<br>
+<a href="#Latest">Latest news</a>
+<br>
+<a href="#Trending">Trending</a>
+<br>
+<a href="#Media">Media</a>
+<br>
+<a href="#Contact">Contact for business</a>
+<br>
+<a href="#About">More about us </a>
+</nav>
+<!-- Main content -->
+<h2 id="Home">Home</h2>
+<p>Welcome to our news homepage! Stay updated with the latest headlines and stories from around the world.</p>
+
+<h2 id="Latest">Latest News</h2>
+<ul>
+<li>Global markets rally as economic outlook improves.</li>
+<li>New technological advancements in renewable energy.</li>
+<li>Health officials announce new guidelines for public safety.</li>
+</ul>
+
+<h2 id="Trending">Trending</h2>
+<ol>
+<li>Celebrity couple announces engagement.</li>
+<li>Breakthrough in cancer research offers new hope.</li>
+<li>Major sports event draws record crowds.</li>
+</ol>
+
+<h2 id="Media">Media</h2>
+<p>Check out our latest videos and photo galleries covering recent events and stories.</p>
+<h2 id=Contact">Contact for Business</h2>
+<address>
+For business inquiries, please reach out to us at:<br>
+Email: abc@ac.in<br>
+Phone: +91-1234567890<br>
+Address: 123 News St, Media City, Country:india
+</address>
+<h2 id="about">More About Us</h2>
+<p>We are committed to delivering accurate and timely news to our readers. Our team of experienced journalists works around the clock to bring you the stories that matter.</p>
+<p>Follow us on social media for real-time updates and exclusive content.</p>
+<footer>
+<p>&copy; 2024 News Homepage. All rights reserved.</p>
+</footer>
+<!-- Embedded YouTube Video -->
+<p>Watch our featured news video below:</p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/2e-eXJ6HgkQ?si=nqqcxYlyxRQmzre9" title="YouTube video player" frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<footer>
+<p>For more videos, visit our :
+<br>
+<a href="https://www.youtube.com/"target="_blank">YouTube</a>
+</p>
+</footer>
+<!-- Image with alt text -->
+<p>Stay informed with our latest news image:</p>
+<img src="aajtak.jpg" alt="News Image" width="500" height="500">
+</body>
+</html>

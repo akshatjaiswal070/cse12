@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Responsive Product Grid</title>
+<style>
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body {
+font-family: Arial, sans-serif;
+background-color: #f4f4f4;
+padding: 20px;
+}
+.container {
+max-width: 1200px;
+margin: 0 auto;
+}
+h1 {
+text-align: center;
+margin-bottom: 20px;
+color: #333;
+}
+.product-grid {
+display: grid;
+grid-template-columns: repeat(1, 1fr);
+gap: 20px;
+}
+.product-card {
+background-color: white;
+border: 1px solid #ddd;
+border-radius: 8px;
+padding: 15px;
+text-align: center;
+box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.product-card img {
+max-width: 100%;
+height: auto;
+border-radius: 4px;
+margin-bottom: 10px;
+}
+.product-card h3 {
+font-size: 1.2em;
+margin-bottom: 5px;
+color: #333;
+}
+.product-card p {
+font-size: 0.9em;
+margin-bottom: 10px;
+color: #666;
+}
+.product-card .price {
+font-size: 1.1em;
+font-weight: bold;
+color: #e60000;
+}
+@media (min-width: 600px) {
+.product-grid {
+grid-template-columns: repeat(2, 1fr);
+}
+}
+@media (min-width: 900px) {
+.product-grid {
+grid-template-columns: repeat(3, 1fr);
+}
+}
+</style>
+</head>
+<body>
+<div class="container">
+<h1>Our Products</h1>
+<div class="product-grid">
+<div class="product-card">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLhOKCFUmd-xYW8gpVDeqYc9-OWrjFHgrJAA&s" alt="T-Shirt">
+<h3>Product One</h3>
+<p>Each piece has a made-by-hand feel often worn or hand-drawn giving it that used, real vibe!!</p>
+<span class="price">₹8,890</span>
+</div>
+<div class="product-card">
+<img src="https://www.livemint.com/lm-img/img/2023/07/24/1600x900/2-0-322669020-Apple-MacBook-Air-13-copy-0_1680436414973_1690175424305.jpg" alt="MACBOOK">
+<h3>Product Two</h3>
+<p>The MacBook Air is designed for most everyday users, students, and professionals who prioritize portability and all-day battery life for tasks like web browsing, document editing, and light content creation!!</p>
+<span class="price">₹89,990</span>
+</div>
+<div class="product-card">
+<img src="https://images.moneycontrol.com/static-mcnews/2022/11/xbox-ps5-770x431.jpg?impolicy=website&width=770&height=431" alt="PS 5">
+<h3>Product Three</h3>
+<p>The PS5 (PlayStation 5) is Sony's powerful ninth-generation home video game console!! </p>
+<span class="price">₹50,499</span>
+</div>
+<div class="product-card">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCJWq68z00gDJGCCoZwT37m2v-SwjGVC2PzQ&s" alt="Mac Mini">
+<h3>Product Four</h3>
+<p>The Mac mini is Apple's compact, affordable desktop computer that provides the full macOS experience in a tiny, powerful box, requiring you to "Bring Your Own Display, Keyboard, and Mouse" (BYODKM).!!!</p>
+<span class="price">₹93,999</span>
+</div>
+<div class="product-card">
+<img src="https://dawntown.co.in/cdn/shop/files/air-jordan-1-high-zoom-cmft-chicago-bulls-267131.jpg?v=1749480218&width=2000" alt="Air jorden">
+<h3>Product Five</h3>
+<p>Jordan Air shoes, a premium Nike sub-brand launched in 1984 for basketball legend Michael Jordan, are iconic sneakers known for blending high-performance basketball tech!!!</p>
+<span class="price">₹16,999</span>
+</div>
+<div class="product-card">
+<img src="https://m-cdn.phonearena.com/images/hub/550-wide-two_1200/iPhone-17-Pro-Max-release-date-price-and-features.jpg" alt="Iphone 17 pro max">
+<h3>Product Six</h3>
+<p>The iPhone 17 Pro Max, released in September 2025, features a large 6.9-inch Super Retina XDR display with ProMotion, powered by the A19 Pro chip for top performance, and boasts an advanced Pro Fusion camera system with 48MP sensors !!!</p>
+<span class="price">₹161,999</span>
+</div>
+</div>
+</div>
+</body>
+</html>

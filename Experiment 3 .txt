@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TIME TABLE
+</title>
+</head>
+<body>
+<h1 align="center"> ABES Engineering College , Ghaziabad </h1>
+<h2 align="center"> Class Time Table</h2>
+<br>
+
+<h2 align="center"> Department:Computer Science & Engineering </h2>
+<h3>Course:B.Tech</h3>
+<h3>Semester/Section-I/CSE-12</h3>
+<h3>Class Room No: RJ-206</h3>
+<!-- <h3 align="right">w.e.f:13.10.2025</h3>
+<h3 align="right"> Session 2025-26, ODD Semester</h3> -->
+<table border="10" width="100%" align="center" cellspacing="0" cellpadding="8">
+<tr>
+<th>Time/Day</th>
+<th>08:50-09:40</th>
+<th>09:40-10:30</th>
+<th>10:40-11:30</th>
+<th>11:30-12:20</th>
+<th>12:20-01:10</th>
+<th>01:10-02:00</th>
+<th>02:00-02:50</th>
+<th>02:50-03:40</th>
+<th>03:40-04:30</th>
+</tr>
+<tr align="center">
+<td>Monday</td>
+<td>25AI101<br>(SHA)<br>RJ-206</td>
+<td>25AS102<br>(RK)<br>RJ-206</td>
+<td>25AS101<br>(VS)<br>RJ-206</td>
+<td>25EL101<br>(PRM)<br>RJ-206</td>
+<td rowspan="5" align="center" >lunch</td>
+<td colspan="2" align="center">25CS151<br>(ALA)<br>RJ-303</td>
+<td>25AS102<br>(RK)<br>RJ-303</td>
+<td>25AS103<br>(DSH)<br>RJ-305</td>
+</tr>
+<tr>
+<td>Tuesday</td>
+<td colspan="2">25AS151<br>(YS, YT)<br>KC Block III Floor (KC-310)</td>
+
+<td>25AS101<br>(VS)<br>RJ-206</td>
+<td>25AS102<br>(RK)<br>RJ-206</td>
+<!-- <td>lunch</td> -->
+<td>25EL101<br>(PRM)<br>RJ-206</td>
+<td>25AS102<br>(RK)<br>RJ-206</td>
+<td>25AS102<br>(SHA)<br>RJ-206</td>
+<td colspan="2">Mentor-Mentee<br>(DSH, PRM)<br>RJ-206</td>
+</tr>
+<tr>
+<td>Wednesday</td>
+<td>25AS102<br>(RK)<br>RJ-305</td>
+<td>25VA151<br>(MN)<br>RJ-305</td>
+<td colspan="2">25ME151<br>(DRK, YKS)<br>RJ Block I Floor (RJ-109)</td>
+<td>25AI101<br>(SHA)<br>RJ-305</td>
+<td>25AS101<br>(RK)<br>RJ-305</td>
+<td>25EL101<br>(PRM)<br>RJ-305</td>
+</tr>
+<tr>
+<td>Thursday</td>
+<td>25CS101<br>(ALA)<br>RJ-207</td>
+<td>25CS101<br>(ALA)<br>RJ-207</td>
+<td>25AS102<br>(RK)<br>RJ-207</td>
+<td>25AS102<br>(RK)<br>RJ-207</td>
+<td colspan="2">25VA151<br>(MN)<br>KC Block V Floor (KC-509)</td>
+<td>25EL101<br>(PRM)<br>RJ-305</td>
+<td>25AS103<br>(DSH)<br>RJ-305</td>
+</tr>
+<tr>
+<td>Friday</td>
+<td colspan="2">25EL151<br>(PRM, YK)<br>RJ-Basement</td>
+<td>25EL151<br>(PRM)<br>RJ-204</td>
+<td>25AS103<br>(DSH)<br>RJ-204</td>
+<td>25AS101<br>(VS)<br>RJ-206</td>
+<td>25AS102<br>(RK)<br>RJ-207</td>
+<td>25CS101<br>(ALA)<br>RJ-204</td>
+<td>25CS101<br>(ALA)<br>RJ-204</td>
+</tr>
+</table>
+
+<h4>Subject Details</h4>
+<table border="1" cellpadding="4" cellspacing="0">
+<tr>
+<th>Subcode</th>
+<th>Subname</th>
+<th>Faculty</th>
+<th>Lab Code</th>
+<th>Lab Name</th>
+<th>Lab Faculty</th>
+</tr>
+<tr>
+<td>25AS101</td>
+<td>Applied Physics</td>
+<td>Dr. Vikash Singh (VS)</td>
+<td>25CS151</td>
+<td>Data Structure Lab</td>
+<td>Mr. Abhishek Shukla (ALA)</td>
+</tr>
+<tr>
+<td>25EL101</td>
+<td>Basics of Electrical Engg.</td>
+<td>Dr. Prerana Mohapatra (PRM)</td>
+<td>25AS151</td>
+<td>Physics Lab</td>
+<td>Dr. Vikash Singh (YS),Dr. Yashpal Tyagi(YT)
+</td>
+</tr>
+<tr>
+<td>25AS102</td>
+<td>Fundamentals of Linear Algebra & Calculus</td>
+<td>Dr. Ranjeet Kumar (RK)</td>
+<td>25EL151</td>
+<td>Basic Electrical Engg. Lab</td>
+<td>Dr. Prerana Mohapatra (PRM)</td>
+</tr>
+<tr>
+<td>25CS101</td>
+<td>Data Structure</td>
+<td>Mr. Abhishek Shukla (ALA)</td>
+<td>25ME151</td>
+<td>CAD Lab</td>
+<td>Dr. Rasesh Kumar (DRK)</td>
+</tr>
+<tr>
+<td>25AS103</td>
+<td>Environment & Sustainability</td>
+<td>Dr. Divyanshi Sharma (DSH)</td>
+<td>25VA151</td>
+<td>Web Designing Workshop I</td>
+<td>Ms.Monika(MN)</td>
+</tr>
+<tr>
+<td>25AI151</td>
+<td>Essentials of AI</td>
+<td>Ms. Shalu (SHA)</td>
+<td></td>
+<td>Mentor-Mentee</td>
+<td>Dr. Prerana Mohapatra (PRM), Dr. Divyanshi Sharma (DSH)
+</td>
+
+</tr>
+
+
+</table>
+</body>
+</html>

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta-name="viewport" content="width=device-width, initial-scale=1.0">
+<title>E-Commerce Navbar</title>
+
+<style>
+
+body {
+margin: 0;
+font-family: Arial, sans-serif;
+background: #f5f5f5;
+}
+
+
+nav {
+background:rgb(245, 245, 6);
+padding: 15px 20px;
+}
+
+.nav-container {
+display: flex;
+justify-content: space-between;
+align-items: center;
+flex-wrap: wrap;
+}
+
+
+.logo {
+color: rgb(0, 0, 0);
+font-size: 1.5rem;
+font-weight: bold;
+}
+
+
+.nav-links {
+display: flex;
+list-style: none;
+gap: 20px;
+}
+
+.nav-links li a {
+color: rgb(0, 0, 0);
+text-decoration: none;
+padding: 8px 10px;
+}
+
+.nav-links li a:hover {
+background: #444;
+border-radius: 5px;
+}
+
+
+.actions a {
+margin-left: 15px;
+color: rgb(0, 0, 0);
+text-decoration: none;
+}
+
+
+#menu-toggle {
+display: none;
+}
+
+.menu-btn {
+display: none;
+font-size: 28px;
+color: white;
+cursor: pointer;
+}
+
+@media (max-width: 768px) {
+.menu-btn {
+display: block;
+}
+
+.nav-links,
+.actions {
+width: 100%;
+display: none;
+flex-direction: column;
+margin-top: 10px;
+}
+
+#menu-toggle:checked ~ .nav-links,
+#menu-toggle:checked ~ .actions {
+display: flex;
+}
+
+.nav-links li a {
+padding: 12px;
+width: 100%;
+background: #333;
+border-bottom: 1px solid #444;
+}
+}
+
+
+.hero {
+text-align: center;
+padding: 50px 20px;
+background: white;
+}
+
+.hero h1 {
+font-size: 2.5rem;
+}
+
+.hero p {
+margin-top: 10px;
+font-size: 1.1rem;
+}
+</style>
+</head>
+<body>
+
+
+<nav>
+<div class="nav-container">
+
+
+<div class="logo">Flipkart</div>
+
+
+<input type="checkbox" id="menu-toggle">
+<label for="menu-toggle" class="menu-btn">&#9776;</label>
+
+
+<ul class="nav-links">
+<li><a href="#">Home</a></li>
+<li><a href="#">Flipkart Minutes</a></li>
+<li><a href="#">Mobiles</a></li>
+<li><a href="#">TV & Appliances</a></li>
+<li><a href="#">Contact</a></li>
+</ul>
+
+
+<div class="actions">
+<a href="#">🛒 Cart</a>
+<a href="#">Login</a>
+</div>
+
+</div>
+</nav>
+
+
+<section class="hero">
+<h1>Welcome to Flipkart!</h1>
+<p>Your destination for all shopping needs.</p>
+</section>
+
+</body>
+</html>

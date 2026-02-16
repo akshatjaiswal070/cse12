@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Navigation Menu Example</title>
+<style>
+/* Example of BLOCK element */
+header {
+display: block;
+background: green;
+color: white;
+padding: 20px;
+font-size: 24px;
+}
+/* Navigation bar container */
+nav {
+background: #eee;
+padding: 10px;
+}
+/* Example of INLINE elements */
+nav a.inline-link {
+display: inline;
+margin-right: 15px;
+color: blue;
+}
+/* Example of INLINE-BLOCK elements */
+nav a.inline-block-link {
+display: inline-block;
+padding: 8px 12px;
+background: #ddd;
+margin-right: 10px;
+}
+/* FLOAT menu items */
+.float-menu li {
+float: left;
+list-style: none;
+margin-right: 15px;
+background: #ccc;
+padding: 6px 10px;
+}
+/* CLEAR fix for floated items */
+.clear {
+clear: both;
+}
+</style>
+</head>
+<body>
+<header>My Website Navigation</header>
+<h2>Inline Navigation Links</h2>
+<nav>
+<a href="#" class="inline-link">Home</a>
+<a href="#" class="inline-link">About</a>
+<a href="#" class="inline-link">Contact</a>
+</nav>
+<h2>Inline-Block Navigation Links</h2>
+<nav>
+<a href="#" class="inline-block-link">Home</a>
+<a href="#" class="inline-block-link">Services</a>
+<a href="#" class="inline-block-link">Blog</a>
+</nav>
+<h2>Float-Based Menu</h2>
+<ul class="float-menu">
+<li>Home</li>
+<li>Gallery</li>
+<li>News</li>
+<li>Contact</li>
+</ul>
+<!-- CLEAR floats -->
+<div class="clear"></div>
